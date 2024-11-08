@@ -214,7 +214,7 @@ class Activity : AppCompatActivity() {
                 // If we want to make placemarks draggable, we should call
                 // clasterizedCollection.clusterPlacemarks on onMapObjectDragEnd
                 isDraggable = true
-                setDragListener(pinDragListener)
+                //setDragListener(pinDragListener)
                 // Put any data in MapObject
                 userData = PlacemarkUserData("Data_$index", type)
                 addTapListener(placemarkTapListener)
